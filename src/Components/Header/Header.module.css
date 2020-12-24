@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  background-color: #563d7c;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn button {
+  margin-right: 5px;
+}

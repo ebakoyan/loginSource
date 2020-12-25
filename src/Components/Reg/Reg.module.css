@@ -8,6 +8,7 @@
   outline: none;
 }
 .post {
+  min-width: 350px;
   background-color: white;
   padding: 20px;
   display: flex;
@@ -15,14 +16,14 @@
   justify-content: center;
   flex-direction: column;
   padding: 30px 80px;
-  border: 1px solid #e0e0bb;
+  border: 1px solid #c8c8c2;
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgb(231, 210, 210);
+  box-shadow: 3px 3px 20px #c8c8c2;
 }
 .post input {
   border-radius: 5px;
   padding: 5px;
-  border: 2px #e0e0bb solid;
+  border: 2px #c8c8c2 solid;
   margin: 5px;
   width: 75%;
 }

@@ -5,13 +5,13 @@
   justify-content: center;
 }
 .inputs {
-  box-shadow: 3px 3px 20px rgb(231, 210, 210);
+  box-shadow: 3px 3px 20px #c8c8c2;
   background-color: white;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 30px 40px;
-  border: 1px solid #e0e0bb;
+  border: 1px solid#c8c8c2;
   border-radius: 10px;
 }
 .inputs input {
@@ -19,7 +19,7 @@
   padding: 5px;
   border-radius: 5px;
   text-align: left;
-  border: 2px solid #e0e0bb;
+  border: 2px solid #c8c8c2;
   /* border-color: red; */
 }
 .inputs input:focus {

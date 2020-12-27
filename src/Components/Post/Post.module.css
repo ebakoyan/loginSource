@@ -1,0 +1,18 @@
+.post {
+  border: 1px solid #c8c8c2;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px #c8c8c2;
+  padding: 20px;
+
+  margin: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  width: 350px;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+}
+.photo img {
+  width: 90%;
+}

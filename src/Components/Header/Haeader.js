@@ -17,6 +17,11 @@ const Header = (props) => {
         <button className='btn btn-info' onClick={() => props.setPage("posts")}>
           Posts
         </button>
+        <button
+          className='btn btn-info'
+          onClick={() => props.setPage("create")}>
+          Create post
+        </button>
       </div>
     </header>
   );

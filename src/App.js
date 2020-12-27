@@ -4,12 +4,13 @@ import Header from "./Components/Header/Haeader";
 import Login from "./Components/Login/Login";
 import Reg from "./Components/Reg/Reg";
 import Posts from "./Components/Posts/Posts";
+import Create from "./Components/Create/Create";
 
 class App extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      page: "login",
+      page: "posts",
     };
     this.setPage = (newPage) => {
       this.setState({ page: newPage });
@@ -27,8 +28,11 @@ class App extends React.PureComponent {
       case "posts":
         component = <Posts />;
         break;
+      case "create":
+        component = <Create click={(page) => this.setPage(page)} />;
+        break;
       default:
-        component = <Login />;
+        component = <Posts />;
     }
     return (
       <div>
